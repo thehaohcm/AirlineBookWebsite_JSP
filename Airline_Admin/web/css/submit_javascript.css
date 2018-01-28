@@ -1,0 +1,125 @@
+/* Below line is used for online Google font */
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+h2{
+    background-color: #FEFFED;
+    padding: 30px 35px;
+    margin: -10px -50px;
+    text-align:center;
+    border-radius: 10px 10px 0 0;
+}
+
+div.container{
+    padding-left:50px;
+    font-family: 'Raleway', sans-serif;
+    float:center;
+	background-repeat:no-repeat;
+	background-size:1366px 450px;
+}
+div.main{
+    width: 500px;
+    padding: 10px 50px 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-family: raleway;
+	background:#3082bb;
+    margin-top:60px;
+	
+}
+.right { 
+color:white; 
+}
+
+.left {
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+.right {
+    width: 65%;
+    margin-left: 10px;
+    float:left;
+}
+
+body{
+	background-image: url(./img/airline_1.png);
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: block;
+}
+
+.mytext{
+	width:150px;
+	border: 3px double #CCCCCC;
+
+}
+
+label{
+	color:white;
+	padding: 2px 5px;
+}
+
+
+input,select{
+	
+	margin: 5px 5px;
+	
+}
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+	background:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+	width:10em;
+}
+
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
+	background-color:#dfdfdf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.parent {
+    margin-bottom: 15px;
+    padding: 10px;
+    color: #0A416B;
+    clear:both;
+}
+.left, .center, .right{
+    float:left;
+    width:32%;
+    border:1px solid #CEDCEA; 
+    padding:5px;
+
+}
